@@ -1,0 +1,61 @@
+main {
+  min-height: calc(100vh - 100px);
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.list {
+  width: 300px;
+  min-width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+body.dark {
+  background: linear-gradient(to right bottom, #141d39, #151c35, #151b31, #161a2e, #16192a, #171a2e, #181b32, #191c36, #1c1f43, #202150, #27225d, #2f2369) !important;
+  color: white;
+}
+body.dark .btn,
+body.dark input::placeholder,
+body.dark input {
+  color: white;
+}
+body.dark .list {
+  border: 1px solid #2f2369;
+}
+body.dark input {
+  background-color: transparent;
+  border: 1px solid #2f2369;
+}
+body.dark li {
+  border: 1px solid #2f2369;
+  background-color: transparent;
+}
+body.dark .dropdown-menu {
+  background: linear-gradient(to right top, #141d39, #151c35, #151b31, #161a2e, #16192a, #171a2e, #181b32, #191c36, #1c1f43, #202150, #27225d, #2f2369) !important;
+}
+body.dark .dropdown-menu li a {
+  color: white;
+}
+body.dark .dropdown-menu li a i {
+  color: white;
+}
+body.dark p {
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
